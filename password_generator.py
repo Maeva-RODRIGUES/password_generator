@@ -1,6 +1,7 @@
 # password_generator.py
-#print("Hello, world!")
-  
+
+print("The script is running!")
+
 #Importation des bibliothèques
 import random  # Importation du module random pour générer des choix aléatoires
 import string  # Importation du module string pour accéder aux ensembles de caractères prédéfinis
@@ -54,6 +55,6 @@ def main():
     except ValueError as e:  # Gère l'erreur si aucune catégorie de caractères n'est sélectionnée
         print(e)
 
-    # Point d'entrée du script, exécute la fonction main si le script est lancé directement
-    if __name__ == "__main__":
-        main()
+# Point d'entrée du script, exécute la fonction main si le script est lancé directement
+if __name__ == "__main__":
+    main()
